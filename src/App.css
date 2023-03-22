@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.my_profile{
+  width: 15rem;
+  border-radius: 100%;
+  height: 15rem;
+}
+.my_card{
+  background-image: url(./Component/Profile/images/paper-texture-colorful-abstract-background.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 2%;
+  box-shadow: 0 2px 4px rgb(114, 94, 94);
+  
+}
+.my_card:hover{
+transform: scale(1.05);
+transition-duration: 0.3s;
+}
+
+body{
+  background-image: url(https://images.urbndata.com/is/image/Anthropologie/48395073_895_m?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=960);
+  background-position: center;
+  background-size: cover;
+  
+}
+.nav-list a{
+  font-size: 1.5rem;
+  color:black;
+}
+
